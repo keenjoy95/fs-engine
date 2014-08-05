@@ -1,0 +1,9 @@
+TARGETNAME = client
+TARGETTYPE = PROGRAM
+TARGETPATH = obj
+TARGETLIBS = .\i386\fscaler.lib
+
+SOURCES = client.c
+
+UMTYPE = console
+UMBASE = 0x04000000
